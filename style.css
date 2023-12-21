@@ -51,7 +51,7 @@ input {
     outline: none;
     background: transparent;
     padding: 10px;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 button {
@@ -60,7 +60,7 @@ button {
     padding: 16px 50px;
     background: #fa887b;
     color: #fff;
-    font-size:  0.9rem;
+    font-size:  16px;
     cursor: pointer;
     border-radius: 40px;
 }
