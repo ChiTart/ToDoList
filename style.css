@@ -62,17 +62,19 @@ button {
     padding: 16px 50px;
     background: #fa887b;
     color: #fff;
-    font-size:  16px;
+    font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
 }
 
 @media only screen and (max-width: 400px) {
-    button, input {
-      font-size: 0.6rem;
-      max-width: 50%;
+
+    button,
+    input {
+        font-size: 0.6rem;
+        max-width: 50%;
     }
-  }
+}
 
 
 ul li {
@@ -84,26 +86,13 @@ ul li {
     position: relative;
 }
 
-ul li::before {
-    content: "";
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-    background-image: url(/images/unchecked.png);
-    background-size: cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
-}
-
 ul li.checked {
-    color: #555;
-    text-decoration: line-through;
+    color: #868686;
 }
 
-ul li.checked::before {
-    background-image: url(/images/checked.png);
+i {
+    margin-right: 1rem;
+    font-size: 1.2rem;
 }
 
 ul li span {
